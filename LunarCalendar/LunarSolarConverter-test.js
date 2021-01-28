@@ -216,7 +216,7 @@ const sendMsg = encodeURI("今天大概是初"+lunar.lunarDay+"吧?");
 
 
   request({
-    url: "https://api.telegram.org/bot1686188569:AAG9uK58O2sEIhon-C2b3xRle00ohO-6L7c/sendMessage?chat_id=-450194312&text="+sendMsg,
+    url: "https://api.telegram.org/bot1686188569:AAG9uK58O2sEIhon-C2b3xR6L7c/sendMessage?chat_id=-450194&text="+sendMsg,
     method: "GET"
   }, function(error, response, body) {
     if (error || !body) {
